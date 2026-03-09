@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>[Candidate Name] | Shopify Customer Support Portfolio</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Inter', sans-serif; margin:0; padding:0; background:#f4f6f8; color:#333; line-height:1.6; }
+  h1,h2,h3{margin:0 0 10px} p{margin:0 0 15px} a{text-decoration:none;color:#0d6efd}
+  .container{max-width:1000px;margin:auto;padding:40px 20px;}
+  header{text-align:center;padding:80px 20px;background:#fff;box-shadow:0 3px 8px rgba(0,0,0,0.08);}
+  header h1{font-size:2.8em;margin-bottom:10px} header p{font-size:1.2em;margin-bottom:20px}
+  .cta-btn{background:#0d6efd;color:#fff;padding:12px 25px;border-radius:6px;font-weight:bold;display:inline-block}
+  .cta-btn:hover{background:#0b5ed7}
+  h2.section-title{text-align:center;font-size:2em;margin-bottom:40px}
+  .card{background:#fff;border-radius:10px;padding:25px;margin-bottom:25px;box-shadow:0 2px 10px rgba(0,0,0,0.06);transition:transform 0.3s;}
+  .card:hover{transform:translateY(-5px);}
+  .skills-grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+  .skill-card{flex:0 0 220px;background:#0d6efd;color:#fff;padding:20px;border-radius:8px;text-align:center;font-weight:600;transition:transform 0.3s;}
+  .skill-card:hover{transform:translateY(-5px);}
+  .tabs{display:flex;gap:15px;justify-content:center;margin-bottom:20px;flex-wrap:wrap;}
+  .tab{padding:10px 20px;background:#0d6efd;color:#fff;border-radius:6px;cursor:pointer;font-weight:600;transition:background 0.3s;}
+  .tab.active{background:#0b5ed7;}
+  .tab-content{display:none;}
+  .tab-content.active{display:block;}
+  .tab-content img{width:100%;border-radius:6px;margin-bottom:10px;}
+  form{max-width:500px;margin:auto;display:flex;flex-direction:column;gap:15px;}
+  input,textarea{padding:12px;border-radius:6px;border:1px solid #ccc;font-size:1em;width:100%;}
+  button{padding:12px;border:none;border-radius:6px;background:#0d6efd;color:#fff;font-weight:bold;cursor:pointer;}
+  button:hover{background:#0b5ed7;}
+  footer{text-align:center;padding:25px;background:#343a40;color:#fff;}
+  @media(max-width:768px){.skills-grid,.tabs{flex-direction:column;align-items:center}}
+</style>
+</head>
+<body>
+
+<!-- Hero -->
+<header>
+  <h1>[Candidate Name]</h1>
+  <p>Shopify Customer Support Specialist | Multi-channel & E-commerce Expertise</p>
+  <a href="#portfolio" class="cta-btn">View Portfolio</a>
+</header>
+
+<!-- About -->
+<section id="about" class="container">
+  <h2 class="section-title">About Me</h2>
+  <div class="card">
+    <p>Results-driven customer support professional with 6 months of experience at Capital One Philippines. Skilled in multi-channel communication, problem-solving, CRM management, and e-commerce workflows. Adept at handling inquiries, resolving issues, and providing excellent service. Ready to bring expertise to Shopify merchants to improve customer satisfaction and operational efficiency.</p>
+  </div>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="container">
+  <h2 class="section-title">Core Competencies</h2>
+  <div class="skills-grid">
+    <div class="skill-card">Multi-Channel Support</div>
+    <div class="skill-card">Problem Solving</div>
+    <div class="skill-card">CRM Tools (Zendesk, Salesforce)</div>
+    <div class="skill-card">E-commerce & Shopify Familiarity</div>
+    <div class="skill-card">Empathy & Active Listening</div>
+    <div class="skill-card">Time Management & Prioritization</div>
+  </div>
+</section>
+
+<!-- Experience -->
+<section id="experience" class="container">
+  <h2 class="section-title">Professional Experience</h2>
+  <div class="card">
+    <h3>Customer Service Representative – Capital One Philippines</h3>
+    <p><em>Sept 2023 – Mar 2024</em></p>
+    <ul>
+      <li>Resolved 50+ daily customer inquiries via email, chat, and phone, maintaining a 95% satisfaction rating.</li>
+      <li>Assisted customers with account issues, billing inquiries, and transaction disputes.</li>
+      <li>Tracked, escalated, and documented issues using CRM tools efficiently.</li>
+      <li>Streamlined email templates, reducing repetitive response time by 20%.</li>
+      <li>Collaborated with cross-functional teams to resolve complex issues while maintaining service quality.</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Portfolio Tabs -->
+<section id="portfolio" class="container">
+  <h2 class="section-title">Portfolio Samples</h2>
+
+  <div class="tabs">
+    <div class="tab active" data-tab="email">Email Templates</div>
+    <div class="tab" data-tab="chat">Live Chat</div>
+    <div class="tab" data-tab="admin">Shopify Admin</div>
+    <div class="tab" data-tab="training">Self-Learning</div>
+  </div>
+
+  <div class="tab-content active" id="email">
+    <div class="card">
+      <img src="mock-email-refund.png" alt="Refund Email Template">
+      <h3>Refund Requests</h3>
+      <p>Professional email guiding customers through refund requests with empathy and clarity.</p>
+    </div>
+    <div class="card">
+      <img src="mock-email-shipping.png" alt="Shipping Email Template">
+      <h3>Shipping Issues</h3>
+      <p>Template addressing delays, providing tracking updates, and offering compensation if needed.</p>
+    </div>
+  </div>
+
+  <div class="tab-content" id="chat">
+    <div class="card">
+      <img src="mock-chat-order.png" alt="Live Chat Scenario">
+      <h3>Order Delays</h3>
+      <p>Simulated live chat resolving multi-item order delays step-by-step while maintaining a positive customer experience.</p>
+    </div>
+    <div class="card">
+      <img src="mock-chat-payment.png" alt="Live Chat Payment Scenario">
+      <h3>Payment Failures</h3>
+      <p>Live chat scenario handling payment failures and providing proactive solutions.</p>
+    </div>
+  </div>
+
+  <div class="tab-content" id="admin">
+    <div class="card">
+      <img src="mock-shopify-admin.png" alt="Shopify Admin Simulation">
+      <h3>Order Management</h3>
+      <p>Mock Shopify Admin exercises: creating orders, processing refunds, updating shipping info.</p>
+    </div>
+  </div>
+
+  <div class="tab-content" id="training">
+    <div class="card">
+      <img src="mock-shopify-training.png" alt="Shopify Training Screenshot">
+      <h3>Self-Learning</h3>
+      <p>Completed Shopify Compass tutorials on Admin basics and customer support workflows.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Education & Certifications -->
+<section id="education" class="container">
+  <h2 class="section-title">Education & Certifications</h2>
+  <div class="card">
+    <p><strong>Bachelor’s Degree in [Field]</strong> – [University], [Year]</p>
+    <p>Relevant Courses: Customer Service Management, Business Communication, E-commerce Fundamentals</p>
+    <p><strong>Certifications:</strong> Customer Service Excellence, Shopify Compass Courses (Admin Basics, Support Essentials)</p>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="container">
+  <h2 class="section-title">Let’s Connect</h2>
+  <div class="card">
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <p style="text-align:center;margin-top:15px;">Email: <a href="mailto:your.email@example.com">your.email@example.com</a> | LinkedIn: <a href="#">Profile Link</a></p>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 [Candidate Name] | Shopify Customer Support Portfolio</p>
+</footer>
+
+<script>
+  const tabs = document.querySelectorAll('.tab');
+  const contents = document.querySelectorAll('.tab-content');
+
+  tabs.forEach(tab => {
+    tab.addEventListener('click', () => {
+      tabs.forEach(t => t.classList.remove('active'));
+      tab.classList.add('active');
+
+      const target = tab.getAttribute('data-tab');
+      contents.forEach(c => c.classList.remove('active'));
+      document.getElementById(target).classList.add('active');
+    });
+  });
+</script>
+
+</body>
+</html>
